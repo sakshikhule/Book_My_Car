@@ -1,5 +1,3 @@
-import threading
-
 class Book_My_Car:
     def __init__(self):
         self.cars = {
