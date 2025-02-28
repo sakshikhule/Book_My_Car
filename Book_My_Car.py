@@ -22,7 +22,6 @@ class Book_My_Car:
             }
         }
         self.rented_cars = {}
-        self.lock = threading.Lock()
         self.charge_per_hour = 10
         self.charge_per_day = 500
         self.discount_days = 7
